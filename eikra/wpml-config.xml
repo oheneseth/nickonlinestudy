@@ -1,0 +1,31 @@
+<wpml-config>
+    <admin-texts>
+        <key name="eikra">
+            <key name="phone" />
+            <key name="address" />
+            <key name="header_btn_txt" />
+            <key name="copyright_text" />
+            <key name="error_title" />
+            <key name="error_text1" />
+            <key name="error_text2" />
+            <key name="error_buttontext" />
+        </key>
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1">ac_research</custom-type>
+        <custom-type translate="1">ac_event</custom-type>
+        <custom-type translate="1">ac_testimonial</custom-type>
+        <custom-type translate="1">ac_gallery</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">ac_research_category</taxonomy>
+        <taxonomy translate="1">ac_event_category</taxonomy>
+        <taxonomy translate="1">ac_testimonial_category</taxonomy>
+        <taxonomy translate="1">ac_gallery_category</taxonomy>
+    </taxonomies>
+    <custom-fields>
+       <custom-field action="translate">ac_testimonial_designation</custom-field>
+       <custom-field action="translate">ac_event_participant</custom-field>
+       <custom-field action="translate">ac_event_location</custom-field>
+   </custom-fields>
+</wpml-config>
